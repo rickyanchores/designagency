@@ -1,0 +1,12 @@
+.Home{
+    background: rebeccapurple;
+    color: white;
+    padding: 5em;
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    img{
+        width: 100%;
+    }
+}
