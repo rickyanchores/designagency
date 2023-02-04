@@ -1,3 +1,11 @@
+.Nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  color: red;
+}
+
 body {
   background: #333;
   font-family: monospace;
