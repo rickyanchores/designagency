@@ -1,12 +1,16 @@
 .Home{
-    background: rebeccapurple;
+    background: #333;
     color: white;
     padding: 5em;
+    margin: 1em;
+    border-radius: 12px;
     .grid{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
     img{
         width: 100%;
+        border-radius: 12px;
+
     }
 }
