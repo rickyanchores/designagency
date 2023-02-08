@@ -1,4 +1,5 @@
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom"
+import Banner from "./Components/Banner/Banner";
 
 import Nav from "./Components/Nav/Nav";
 import About from "./Pages/About/About";
@@ -15,6 +16,7 @@ function App() {
         </Routes>
         <Home />
         <About />
+        <Banner />
         <FAQ />
       </Router>
     </div>
