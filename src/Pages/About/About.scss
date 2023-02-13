@@ -3,4 +3,22 @@
     padding: 5em;
     margin: 1em;
     border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .team{
+        .user{
+            img{
+                height: 5em;
+                width: 5em;
+                border-radius: 50%;
+                background: #ccc;
+            }
+            background-color: #333;
+            color: whitesmoke;
+            padding: 1em;
+            margin: 1em;
+            border-radius: 12px;
+        }
+    }
 }
