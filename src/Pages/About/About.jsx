@@ -24,11 +24,10 @@ const About = (props) => {
   return (
     <div className='About'>
         <h3>About</h3>
-        <p>this is about</p>
         <div className="team">
-          <Card image={team[0].image} name={team[0].name} role={team[0].role}/>
-          <Card image={team[1].image} name={team[1].name} role={team[1].role}/>
-          <Card image={team[2].image} name={team[2].name} role={team[2].role}/>
+          <Card className="user" image={team[0].image} name={team[0].name} role={team[0].role}/>
+          <Card className="user" image={team[1].image} name={team[1].name} role={team[1].role}/>
+          <Card className="user" image={team[2].image} name={team[2].name} role={team[2].role}/>
         </div>
     </div>
   )
