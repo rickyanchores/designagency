@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: teal;
+    //background-color: teal;
     border-radius: 12px;
     padding: 2em;
     .navLinks{
@@ -12,7 +12,8 @@
         width: 40%;
         .link{
             text-decoration: none;
-            color: whitesmoke;
+            color: #333;
         }
     }
 }
+
